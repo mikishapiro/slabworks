@@ -1,0 +1,9 @@
+---
+- name: Play to deploy virtual slab
+  tasks:
+    - name: Prints two lines of messages
+      ansible.builtin.debug:
+        msg:
+        - "Hello"
+        - "World"
+...
