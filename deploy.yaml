@@ -1,5 +1,6 @@
 ---
 - name: Play to deploy virtual slab
+  hosts: all
   tasks:
     - name: Prints two lines of messages
       ansible.builtin.debug:
